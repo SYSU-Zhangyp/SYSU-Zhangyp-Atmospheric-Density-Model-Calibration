@@ -1,0 +1,39 @@
+model_l2_h128_b30_ES1 只训练1epoch
+model_l2_h128_b30_ES2 训练了40epoch
+model_l2_h128_b30_ES3训练5epoch
+model_l2_h128_b30_ES1训练了16epoch（你妈的，被刷掉了）
+阈值应当在101.2485以上
+当前最佳阈值100.3148
+
+
+TEST3 07.1.30 活跃期
+TEST4 07.8.19 平静期
+
+
+
+
+----model_l2_h128_b30_N00_ES1(validErr，169)
+Test3
+pred_R: 0.8358943975196199
+JR_R: 0.9294431751423398
+prediction rmse =  5.940354519411299e-14
+N00 rmse =  1.2674036242753176e-13
+
+----model_l2_h128_b30_N00_ES2(validErr，193)
+Test3
+pred_R: 0.8446585675426425
+JR_R: 0.9294431751423398
+prediction rmse =  5.752999004056575e-14
+N00 rmse =  1.2674036242753176e-13
+----model_l3_h128_b30_N00_ES1(validErr，207)
+Test3
+pred_R: 0.8845244354608277
+JR_R: 0.9294431751423398
+prediction rmse =  5.233524208834893e-14
+N00 rmse =  1.2674036242753176e-13
+----model_l3_h128_b30_JB_ES1(validErr，103)
+Test3
+pred_R: 0.9188769978460366
+JR_R: 0.9072383807113475
+prediction rmse =  4.420516508308163e-14
+N00 rmse =  1.1552432727117128e-13
